@@ -133,7 +133,7 @@ footer {
 }
 
 /*Larger than portrait mobile */
-@media only screen and (min-width: 736px) {
+@media only screen and (min-device-width: 750px) {
 
 .logo img {
     margin-left:20px;
