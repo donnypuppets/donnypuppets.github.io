@@ -90,8 +90,6 @@ nav {
     width: 900px;
     position: absolute;
     top:0%;
-    transform: translateX(-20%);
-
     z-index: -3;
 }
 
