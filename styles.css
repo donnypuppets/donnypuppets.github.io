@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
    overflow-x: hidden;
    font-family: Poppins, sans-serif;
 }
@@ -133,7 +133,7 @@ footer {
 }
 
 /*Larger than portrait mobile */
-@media (orientation: landscape) {
+@media only screen and (min-device-width: 760px) {
 
 .logo img {
     margin-left:20px;
