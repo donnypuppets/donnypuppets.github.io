@@ -109,6 +109,8 @@ nav {
     color:beige;
     margin-top: -50px;
     margin-left: 20px;
+    padding:0px;
+    text-align:start;
     font-size: 1.1rem;
     text-transform: uppercase;
 }
