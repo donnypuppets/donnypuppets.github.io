@@ -15,7 +15,7 @@
 }
 
 .site {
-    overflow-x:hidden !important;
+    overflow:hidden !important;
     position: relative;
     width: 100%;
 }
