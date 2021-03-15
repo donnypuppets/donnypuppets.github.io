@@ -98,7 +98,7 @@ nav {
 
 .hero img {
     width:100%;
-    min-width: 475px;
+    min-width: 490px;
     position: relative;
     top:0%;
     right:0%;
@@ -149,7 +149,7 @@ p {
 }
 
 /*Larger than portrait mobile */
-@media (min-width: 650px) {
+@media (min-width: 780px) {
 
     body, html {
         font-size: 1rem;
@@ -208,7 +208,7 @@ p {
     }
 
     section {
-        margin: 30px 12% 30px 25%;
+        margin: 30px 15%;
     }
 
 }
