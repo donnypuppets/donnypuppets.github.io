@@ -62,14 +62,14 @@ nav {
     position: absolute;
     right: 0px;
     background-color: var(--navbar-color);
-    padding: 80px 15px 10px 5px;
+    padding: 70px 15px 10px 5px;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
 }
 
 .nav-links li {
-    margin:13px 0px;
+    margin:7px 0px;
     text-transform: uppercase;
     justify-content: right;
     text-align: right;
