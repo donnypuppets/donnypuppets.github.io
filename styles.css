@@ -144,6 +144,11 @@ footer {
     height: 35px;
 }
 
+.icon-yt img {
+    width: 40px;
+    height: 35px;
+}
+
 p {
     text-align: center;
 }
@@ -204,6 +209,7 @@ p {
 
     .hero h1 {
         margin-left: 28%;
+        margin-bottom:50px;
     }
 
     section {
