@@ -45,7 +45,7 @@ ul {
 .logo img {
     width: 150px;
     height: 150px;
-    margin: 10px;
+    margin: 15px;
     position: absolute;
 }
 
@@ -149,7 +149,7 @@ p {
 }
 
 /*Larger than portrait mobile */
-@media (min-width: 750px) {
+@media (min-width: 650px) {
 
     body, html {
         font-size: 1rem;
@@ -198,7 +198,7 @@ p {
         max-width: 800px;
         position: relative;
         top:0%;
-        left: 23%;
+        left: 25%;
         z-index: -3;
     }
 
@@ -207,7 +207,7 @@ p {
     }
 
     section {
-        margin: 20px 10% 30px 25%;
+        margin: 30px 20% 30px 25%;
     }
 
 }
