@@ -46,12 +46,14 @@ ul {
     width: 200px;
     height: 200px;
     margin: 10px;
+    position: absolute;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-     height: auto;
+    height: auto;
+     
 }
 
 .nav-links {
@@ -80,6 +82,8 @@ nav {
     display: block;
     cursor: pointer;
     margin: 20px;
+    position: absolute;
+    right: 0%;
 }
 
 
@@ -94,16 +98,16 @@ nav {
 
 .hero img {
     width: 100%;
-    min-width: 500px;
-    position: absolute;
-    justify-self: center;
+    min-width: 600px;
+    position: relative;
     top:0%;
     z-index: -3;
+
 }
 
 .hero h1 {
     color:beige;
-    margin-top: 10%;
+    margin-top: -50px;
     margin-left: 20px;
     font-size: 1.3rem;
     text-transform: uppercase;
@@ -111,7 +115,7 @@ nav {
 
 
 section {
-    margin: 10% 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
     padding: 10px 15px;
 }
 
@@ -136,6 +140,10 @@ footer {
 .icon img {
     width: 35px;
     height: 35px;
+}
+
+p {
+    text-align: center;
 }
 
 /*Larger than portrait mobile */
@@ -183,23 +191,20 @@ footer {
 
     .hero img {
         width:100%;
-        min-width: 400px;
         max-width: 1000px;
-        position: absolute;
+        position: relative;
         top:0%;
         left:20%;
-        transform: translateX(5%);
     
         z-index: -3;
     }
 
     .hero h1 {
-        margin-top: 100px;
         margin-left: 28%;
     }
 
     section {
-        margin: 90px 10% 30px 35%;
+        margin: 20px 10% 30px 25%;
     }
 
 }
@@ -228,20 +233,6 @@ footer {
         margin-left: 60px;
     }
 
-    .hero h1 {
-        margin-top: 160px;
-    }
-}
-
-/*Larger than portrait mobile */
-@media only screen and (min-width: 950px) {
-    .hero h1 {
-        margin-top: 240px;
-    }
-
-    section {
-        margin-top:60px;
-    }
 }
 
 
