@@ -97,7 +97,7 @@ nav {
 }
 
 .hero img {
-    width:100px;
+    width:100%;
     min-width: 600px;
     position: relative;
     top:0%;
