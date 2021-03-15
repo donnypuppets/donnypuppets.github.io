@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+.site {
+    overflow-x:hidden;
+}
+
 body, html {
    overflow-x: hidden;
    font-family: Poppins, sans-serif;
@@ -98,7 +102,7 @@ nav {
 
 .hero h1 {
     color:beige;
-    margin-top: 60px;
+    margin-top: 10%;
     margin-left: 20px;
     font-size: 1.3rem;
     text-transform: uppercase;
@@ -106,7 +110,7 @@ nav {
 
 
 section {
-    margin: 20px 30px 30px 30px;
+    margin: 10% 30px 30px 30px;
     padding: 10px 15px;
 }
 
