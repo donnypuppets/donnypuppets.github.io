@@ -98,7 +98,7 @@ nav {
 
 .hero img {
     width:100%;
-    min-width: 490px;
+    min-width: 550px;
     position: relative;
     top:0%;
     right:0%;
@@ -111,7 +111,7 @@ nav {
     margin-top: -3rem;
     margin-left: 20px;
     padding:0px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
