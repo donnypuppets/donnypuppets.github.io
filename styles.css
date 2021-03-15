@@ -15,8 +15,9 @@
 }
 
 body, html {
-   overflow: hidden;
+   overflow-x: hidden;
    font-family: Poppins, sans-serif;
+
 }
 
 
@@ -87,23 +88,25 @@ nav {
 }
 
 .hero img {
-    width: 900px;
+    width: 100%;
+    min-width: 600px;
     position: absolute;
+    justify-self: center;
     top:0%;
     z-index: -3;
 }
 
 .hero h1 {
     color:beige;
-    margin-top: 210px;
+    margin-top: 60px;
     margin-left: 20px;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
 
 section {
-    margin: 40px 30px 30px 30px;
+    margin: 20px 30px 30px 30px;
     padding: 10px 15px;
 }
 
@@ -131,7 +134,11 @@ footer {
 }
 
 /*Larger than portrait mobile */
-@media only screen and (min-device-width: 760px) {
+@media (min-width: 800px) {
+
+    body, html {
+        font-size: 1rem;
+    }
 
 .logo img {
     margin-left:20px;
